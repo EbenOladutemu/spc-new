@@ -16,7 +16,7 @@
 
             <div class="row">
               <div class="col-lg-6">
-                <img src="./assets/img/about.jpg" class="img-fluid" alt="">
+                <img src="~/assets/img/about.jpg" class="img-fluid" alt="">
               </div>
               <div class="col-lg-6 pt-4 pt-lg-0 content">
                 <h3>Voluptatem dignissimos <strong>provident quasi corporis voluptates</strong></h3>
@@ -181,7 +181,7 @@
             <div class="row">
               <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="card">
-                  <img src="./assets/img/more-service-1.jpg" class="card-img-top" alt="...">
+                  <img src="~/assets/img/more-service-1.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Autem sunt earum</a></h5>
                     <p class="card-text">Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore</p>
@@ -191,7 +191,7 @@
               </div>
               <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="card">
-                  <img src="./assets/img/more-service-2.jpg" class="card-img-top" alt="...">
+                  <img src="~/assets/img/more-service-2.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Nobis et tempore</a></h5>
                     <p class="card-text">Ut quas omnis est. Non et aut tempora dignissimos similique in dignissimos. Sit incidunt et odit iusto</p>
@@ -201,7 +201,7 @@
               </div>
               <div class="col-lg-4 col-md-6 d-flex align-items-stretch mb-5 mb-lg-0">
                 <div class="card">
-                  <img src="./assets/img/more-service-3.jpg" class="card-img-top" alt="...">
+                  <img src="~/assets/img/more-service-3.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
                     <h5 class="card-title"><a href="">Facere quia quae dolores</a></h5>
                     <p class="card-text">Modi ut et delectus. Modi nobis saepe voluptates nostrum. Sed quod consequatur quia provident dera</p>
@@ -293,13 +293,13 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>App 1</h4>
                     <p>App</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                    <a href="/_nuxt/assets/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -307,13 +307,13 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>Web 3</h4>
                     <p>Web</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="/_nuxt/assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -321,13 +321,13 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>App 2</h4>
                     <p>App</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                    <a href="/_nuxt/assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -335,13 +335,13 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>Card 2</h4>
                     <p>Card</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                    <a href="/_nuxt/assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -349,13 +349,13 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>Web 2</h4>
                     <p>Web</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                    <a href="/_nuxt/assets/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -363,13 +363,13 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>App 3</h4>
                     <p>App</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                    <a href="/_nuxt/assets/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -377,13 +377,13 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>Card 1</h4>
                     <p>Card</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                    <a href="/_nuxt/assets/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -391,13 +391,13 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>Card 3</h4>
                     <p>Card</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                    <a href="/_nuxt/assets/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -405,13 +405,13 @@
 
               <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                  <img src="./assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
                   <div class="portfolio-info">
                     <h4>Web 3</h4>
                     <p>Web</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="/_nuxt/assets/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>
@@ -435,7 +435,7 @@
 
               <div class="col-xl-3 col-lg-4 col-md-6">
                 <div class="member">
-                  <img src="./assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/team/team-1.jpg" class="img-fluid" alt="">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Walter White</h4>
@@ -453,7 +453,7 @@
 
               <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.1s">
                 <div class="member">
-                  <img src="./assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/team/team-2.jpg" class="img-fluid" alt="">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Sarah Jhonson</h4>
@@ -471,7 +471,7 @@
 
               <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.2s">
                 <div class="member">
-                  <img src="./assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/team/team-3.jpg" class="img-fluid" alt="">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>William Anderson</h4>
@@ -489,7 +489,7 @@
 
               <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
                 <div class="member">
-                  <img src="./assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                  <img src="~/assets/img/team/team-4.jpg" class="img-fluid" alt="">
                   <div class="member-info">
                     <div class="member-info-content">
                       <h4>Amanda Jepson</h4>
@@ -597,9 +597,9 @@
 </template>
 
 <script>
-import Nav from './components/Nav'
-import Intro from './components/Intro'
-import Footer from './components/Footer'
+import Nav from '~/components/Nav'
+import Intro from '~/components/Intro'
+import Footer from '~/components/Footer'
 
 export default {
   components:{
