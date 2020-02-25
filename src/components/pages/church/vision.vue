@@ -24,13 +24,13 @@
 
 <script>
 import Nav from '~/components/Nav'
-import Intro from '~/components/Intro'
+// import Intro from '~/components/Intro'
 import Footer from '~/components/Footer'
 
 export default {
   components:{
     appNav: Nav,
-    appIntro: Intro,
+    // appIntro: Intro,
     appFooter: Footer
   }
 }
