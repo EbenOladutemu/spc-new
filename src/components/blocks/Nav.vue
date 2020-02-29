@@ -29,7 +29,7 @@
           <li><router-link to="/sermon">Sermon</router-link></li>
           <li><router-link to="#portfolio">Gallery</router-link></li>
           <li><router-link to="#team">Donate</router-link></li>
-          <li><router-link to="#contact">Contact Us </router-link></li>
+          <li><router-link to="#contact">Contact Us</router-link></li>
 
         </ul>
       </nav>
