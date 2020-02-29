@@ -7,7 +7,9 @@
         <!-- <h1 class="text-light">
           <router-link to="index.html"><span>SPC</span></router-link>
         </h1> -->
-        <router-link to="/"><img src="./../../assets/img/spc-logo.jpg" alt="" class="img-fluid img-size"></router-link>
+        <router-link to="/">
+          <img src="./../../assets/img/spc-logo.jpg" alt="" class="img-fluid img-size">
+        </router-link>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
