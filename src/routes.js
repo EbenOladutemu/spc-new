@@ -29,5 +29,5 @@ export const routes = [
     { path: '/church/vision', component: Vision },
     { path: '/church/worship-times', component: WorshipTimes }
   ]},
-  { path: '/*', redirect: {name: 'home'} }
+  // { path: '/*', redirect: {name: 'home'} }
 ]

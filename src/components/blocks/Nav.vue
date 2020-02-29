@@ -3,39 +3,34 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html"><span>Shuffle</span></a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <!-- Uncomment below if you prefer to use text -->
+        <!-- <h1 class="text-light">
+          <router-link to="index.html"><span>SPC</span></router-link>
+        </h1> -->
+        <router-link to="/"><img src="./../../assets/img/spc-logo.jpg" alt="" class="img-fluid img-size"></router-link>
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="#header">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+          <li class="active">
+            <router-link to="#header">Home</router-link>
+          </li>
+          <li class="drop-down"><router-link to="">Church</router-link>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
+              <li><router-link to="#">About Us</router-link></li>
+              <li><router-link to="#">Our Mission</router-link></li>
+              <li><router-link to="#">Our Vision</router-link></li>
+              <li><router-link to="#">Leadership</router-link></li>
             </ul>
           </li>
-          <li><a href="#contact">Contact Us</a></li>
+          <li><router-link to="#about">Departments</router-link></li>
+          <li><router-link to="/sermon">Sermon</router-link></li>
+          <li><router-link to="#portfolio">Gallery</router-link></li>
+          <li><router-link to="#team">Donate</router-link></li>
+          <li><router-link to="#contact">Contact Us </router-link></li>
 
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
 
     </div>
   </header>
@@ -60,5 +55,10 @@ export default {
 
 .active-drop:active{
   color: #e04407!important
+}
+
+.img-size{
+  width: 60px;
+  margin-top: -5px!important;
 }
 </style>

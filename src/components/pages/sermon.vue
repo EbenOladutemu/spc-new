@@ -4,7 +4,7 @@
     <app-nav></app-nav>
 
       <main id="main">
-        <section id="why-us" class="wow fadeIn" style="margin-top: 100px">
+        <section id="why-us" class="wow animated fadeInUp" style="margin-top: 100px">
           <div class="container">
             <header class="section-header">
               <h3>Sermon</h3>
@@ -54,11 +54,13 @@
 </template>
 
 <script>
+import Nav from './../blocks/Nav'
 import Intro from './../blocks/Intro'
 import Footer from './../blocks/Footer'
 
 export default {
   components:{
+    appNav: Nav,
     appIntro: Intro,
     appFooter: Footer
   }

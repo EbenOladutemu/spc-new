@@ -7,8 +7,8 @@
           <div class="container">
 
             <div class="section-title">
-              <h2>About Us</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <h2>Welcome</h2>
+              <p>We hope you love it here.</p>
             </div>
 
             <div class="row">
@@ -310,7 +310,7 @@
                     <p>Web</p>
                   </div>
                   <div class="portfolio-links">
-                    <a href="./../../assets/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                    <a href="/img/portfolio-2.86d5d96e.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                     <a href="#" title="More Details"><i class="bx bx-link"></i></a>
                   </div>
                 </div>

@@ -10,12 +10,14 @@
 
             <!-- Slide 1 -->
             <div class="carousel-item active">
-              <div class="carousel-background"><img src="./../../assets/img/slide/slide-1.jpg" alt=""></div>
+              <div class="carousel-background">
+                <img src="./../../assets/img/slide/slide-1.jpg" alt="">
+              </div>
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2 class="animated fadeInDown">Welcome to <span>Christ Revival Evangelistic Ministries</span></h2>
-                  <p class="animated fadeInUp">The Sanctuary Praise Church</p>
-                  <a href="#about" class="btn-get-started animated fadeInUp scrollto">Learn More</a>
+                  <h2 class="animated fadeInDown"><span>Christ Revival Evangelistic Ministries</span></h2>
+                  <a class="venobox_custom venobox play-btn vbox-item" data-vbtype="video" href="https://youtu.be/5WpD_4lJy0Y" data-autoplay="true"></a>
+                  <a href="#about" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
                 </div>
               </div>
             </div>
@@ -25,8 +27,9 @@
               <div class="carousel-background"><img src="./../../assets/img/slide/slide-2.jpg" alt=""></div>
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2 class="animated tada">Lorem Ipsum Dolor</h2>
-                  <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                  <transition mode="out-in" name="tada" enter-to-class="animated tada" leave-to-class="animated tada">
+                    <h2 class="animated tada">The Sanctuary Praise Church</h2>
+                  </transition>
                   <a href="#about" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
                 </div>
               </div>
@@ -37,9 +40,9 @@
               <div class="carousel-background"><img src="./../../assets/img/slide/slide-3.jpg" alt=""></div>
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2 class="animated fadeInDown">Sequi ea ut et est quaerat</h2>
-                  <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                  <a href="#about" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
+                  <transition enter-active-class="animated bounce" leave-active-class="animated bounce">
+                    <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                  </transition>
                 </div>
               </div>
             </div>
