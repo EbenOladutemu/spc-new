@@ -1,9 +1,14 @@
-// import Home from './components/Home'
-// // import Trial from './components/Trial'
-// import User from './components/user/User'
-// import UserStart from './components/user/UserStart'
-// import UserDetail from './components/user/UserDetail'
-// import UserEdit from './components/user/UserEdit'
+import Home from './components/pages/Home'
+import Contact from './components/pages/Contact'
+import Gallery from './components/pages/Gallery'
+import Sermon from './components/pages/Sermon'
+import Donate from './components/pages/Donate'
+
+import About from './components/pages/church/About'
+import Leadership from './components/pages/church/Leadership'
+import Mission from './components/pages/church/Mission'
+import Vision from './components/pages/church/Vision'
+import WorshipTimes from './components/pages/church/WorshipTimes'
 
 // const Trial = resolve => { //Loading Routes lazily
 //   require.ensure(['./components/Trial'], () => {
@@ -11,17 +16,18 @@
 //   })
 // }
 
-// export const routes = [
-//   {path: '/', component: Home, name: 'home'},
-//   {path: '/trial', component: Trial, beforeEnter:((to, from, next)=>{
-//     console.log('Inside route guard');
-//     next()
-//   })},
-//   {path: '/user', component: User, children:[
-//     {path: '', component: UserStart, name: 'userStart'},
-//     {path: ':id', component: UserDetail},//you can change the value of id in the url bar
-//     {path: ':id/edit', component: UserEdit, name: 'userEdit'},
-//   ]},
-//   {path: '/redirect', redirect: '/user'},
-//   {path: '/*', redirect: {name: 'home'}}
-// ]
+export const routes = [
+  { path: '/', component: Home, name: 'home' },
+  { path: '/contact', component: Contact },
+  { path: '/donate', component: Donate, name: 'donate' },
+  { path: '/gallery', component: Gallery, name: 'gallery' },
+  { path: '/sermon', component: Sermon, name: 'sermon' },
+  
+  { path: '/church/about', component: About, name: 'about', children:[
+    { path: '/church/leadership', component: Leadership },
+    { path: '/church/mission', component: Mission },
+    { path: '/church/vision', component: Vision },
+    { path: '/church/worship-times', component: WorshipTimes }
+  ]},
+  { path: '/*', redirect: {name: 'home'} }
+]

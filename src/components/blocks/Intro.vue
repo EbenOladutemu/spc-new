@@ -10,22 +10,22 @@
 
             <!-- Slide 1 -->
             <div class="carousel-item active">
-              <div class="carousel-background"><img src="./../assets/img/slide/slide-1.jpg" alt=""></div>
+              <div class="carousel-background"><img src="./../../assets/img/slide/slide-1.jpg" alt=""></div>
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2 class="animated fadeInDown">Welcome to <span>Shuffle</span></h2>
-                  <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                  <a href="#about" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
+                  <h2 class="animated fadeInDown">Welcome to <span>Christ Revival Evangelistic Ministries</span></h2>
+                  <p class="animated fadeInUp">The Sanctuary Praise Church</p>
+                  <a href="#about" class="btn-get-started animated fadeInUp scrollto">Learn More</a>
                 </div>
               </div>
             </div>
 
             <!-- Slide 2 -->
             <div class="carousel-item">
-              <div class="carousel-background"><img src="./../assets/img/slide/slide-2.jpg" alt=""></div>
+              <div class="carousel-background"><img src="./../../assets/img/slide/slide-2.jpg" alt=""></div>
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2 class="animated fadeInDown">Lorem Ipsum Dolor</h2>
+                  <h2 class="animated tada">Lorem Ipsum Dolor</h2>
                   <p class="animated fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                   <a href="#about" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
                 </div>
@@ -34,7 +34,7 @@
 
             <!-- Slide 3 -->
             <div class="carousel-item">
-              <div class="carousel-background"><img src="./../assets/img/slide/slide-3.jpg" alt=""></div>
+              <div class="carousel-background"><img src="./../../assets/img/slide/slide-3.jpg" alt=""></div>
               <div class="carousel-container">
                 <div class="carousel-content">
                   <h2 class="animated fadeInDown">Sequi ea ut et est quaerat</h2>

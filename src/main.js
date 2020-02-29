@@ -3,10 +3,14 @@ import Vue from 'vue'
 import App from './App.vue'
 import Cheeksy from 'vue-router'
 import { routes } from "./routes";
+import Styles from "./assets/css/style.css"
 
+import Nav from './components/blocks/Nav'
 
-// Vue.use(Bootstrap);
+Vue.component('app-nav', Nav)
+
 Vue.use(Cheeksy);
+Vue.use(Styles);
 
 const router = new Cheeksy({
   routes,

@@ -23,9 +23,9 @@
 </template>
 
 <script>
-import Nav from '~/components/Nav'
+import Nav from './../../blocks/Nav'
 // import Intro from '~/components/Intro'
-import Footer from '~/components/Footer'
+import Footer from './../../blocks/Footer'
 
 export default {
   components:{

@@ -9,12 +9,12 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Cabin Sketch", sans-serif;
   color: #334240;
 }
 
 a {
-  color: #1bbca3;
+  color: red;
 }
 
 a:hover {
@@ -23,7 +23,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Cabin Sketch", sans-serif;
 }
 
 /*--------------------------------------------------------------
