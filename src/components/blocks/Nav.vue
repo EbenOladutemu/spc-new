@@ -15,9 +15,9 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li>
-            <router-link to="#header" active-class="active" exact>Home</router-link>
+            <router-link to="/" active-class="active" exact>Home</router-link>
           </li>
-          <li class="drop-down"><router-link to="">Church</router-link>
+          <li class="drop-down"><router-link to="#">Church</router-link>
             <ul>
               <li><router-link to="/church/about" active-class="active">About Us</router-link></li>
               <li><router-link to="/church/mission" active-class="active">Our Mission</router-link></li>
@@ -28,7 +28,7 @@
           <li><router-link to="/department" active-class="active">Departments</router-link></li>
           <li><router-link to="/sermon" active-class="active">Sermon</router-link></li>
           <li><router-link to="/gallery" active-class="active">Gallery</router-link></li>
-          <li><router-link to="/donate" active-class="active">Donate</router-link></li>
+          <li><router-link to="#" active-class="active">Donate</router-link></li>
           <li><router-link to="/contact" active-class="active">Contact Us</router-link></li>
 
         </ul>

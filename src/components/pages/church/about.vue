@@ -1,9 +1,8 @@
 <template>
   <div>
     <app-intro>
-      <span slot="heading">
-        About Us
-      </span>
+      <img src="./../../../assets/img/slide/slide-1.jpg" alt="">
+      <span slot="heading">About Us</span>
     </app-intro>
     <app-nav></app-nav>
 

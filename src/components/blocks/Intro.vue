@@ -11,7 +11,7 @@
             <!-- Slide 1 -->
             <div class="carousel-item active">
               <div class="carousel-background">
-                <img src="./../../assets/img/slide/slide-1.jpg" alt="">
+                <slot name="bg-img"></slot>
               </div>
               <div class="carousel-container">
                 <div class="carousel-content">
