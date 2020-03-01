@@ -25,7 +25,7 @@
               <li><router-link to="/church/leadership" active-class="active">Leadership</router-link></li>
             </ul>
           </li>
-          <li><router-link to="/department" active-class="active">Departments</router-link></li>
+          <li><router-link to="/departments" active-class="active">Departments</router-link></li>
           <li><router-link to="/sermon" active-class="active">Sermon</router-link></li>
           <li><router-link to="/gallery" active-class="active">Gallery</router-link></li>
           <li><router-link to="#" active-class="active">Donate</router-link></li>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <app-intro>
-      <img src="./../../../assets/img/slide/slide-1.jpg" alt="">
+      <img src="./../../../assets/img/slide/slide-1.jpg" alt="" slot="bg-img">
       <span slot="heading">About Us</span>
     </app-intro>
     <app-nav></app-nav>

@@ -9,7 +9,7 @@
     <section id="portfolio" class="portfolio section-bg">
       <div class="container">
 
-        <div class="section-title text-center">
+        <div class="section-title text-center animated wow fadeInUp">
           <h2>Pictures Worth A Thousand Words</h2>
         </div>
 
