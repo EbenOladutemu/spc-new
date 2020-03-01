@@ -1,12 +1,12 @@
 import Home from './components/pages/Home'
 import Contact from './components/pages/Contact'
 import Gallery from './components/pages/Gallery'
-// import Sermon from './components/pages/Sermon'
+import Sermon from './components/pages/Sermon'
 import Donate from './components/pages/Donate'
-// import About from './components/pages/church/About.vue'
-// import Leadership from './components/pages/church/Leadership'
-// import Mission from './components/pages/church/Mission'
-// import Vision from './components/pages/church/Vision'
+import About from './components/pages/church/About.vue'
+import Leadership from './components/pages/church/Leadership'
+import Mission from './components/pages/church/Mission'
+import Vision from './components/pages/church/Vision'
 import WorshipTimes from './components/pages/church/WorshipTimes'
 
 // const Trial = resolve => { //Loading Routes lazily
@@ -20,11 +20,11 @@ export const routes = [
   { path: '/contact', component: Contact },
   { path: '/donate', component: Donate, name: 'donate' },
   { path: '/gallery', component: Gallery, name: 'gallery' },
-  // { path: '/sermon', component: Sermon, name: 'sermon' },
-  // { path: '/church/about', component: About },
-  // { path: '/church/leadership', component: Leadership },
-  // { path: '/church/mission', component: Mission },
-  // { path: '/church/vision', component: Vision },
+  { path: '/sermon', component: Sermon, name: 'sermon' },
+  { path: '/church/about', component: About },
+  { path: '/church/leadership', component: Leadership },
+  { path: '/church/mission', component: Mission },
+  { path: '/church/vision', component: Vision },
   { path: '/church/worship-times', component: WorshipTimes },
   // { path: '/*', redirect: {name: 'home'} }
 ]
