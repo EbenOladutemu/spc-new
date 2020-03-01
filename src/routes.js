@@ -1,12 +1,12 @@
 // import Home from './components/pages/Home'
 import Contact from './components/pages/Contact'
 import Gallery from './components/pages/Gallery'
-import Sermon from './components/pages/Sermon'
+// import Sermon from './components/pages/Sermon'
 import Donate from './components/pages/Donate'
-import About from './components/pages/church/About.vue'
-import Leadership from './components/pages/church/Leadership'
-import Mission from './components/pages/church/Mission'
-import Vision from './components/pages/church/Vision'
+// import About from './components/pages/church/About.vue'
+// import Leadership from './components/pages/church/Leadership'
+// import Mission from './components/pages/church/Mission'
+// import Vision from './components/pages/church/Vision'
 import WorshipTimes from './components/pages/church/WorshipTimes'
 
 const Home = resolve => { //Loading Routes lazily
