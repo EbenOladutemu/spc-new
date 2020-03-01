@@ -2,7 +2,7 @@
 <template>
   <div>
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-    <transition name="fade">
+    <transition name="fade" mode="out-in">
       <router-view></router-view>
     </transition>
     

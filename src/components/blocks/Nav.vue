@@ -1,5 +1,5 @@
 <template>
-  <header id="header">
+  <header id="header" class="sticky-top navbar">
     <div class="container d-flex">
 
       <div class="logo mr-auto">
