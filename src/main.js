@@ -5,9 +5,10 @@ import Cheeksy from 'vue-router'
 import { routes } from "./routes";
 import Styles from "./assets/css/style.css"
 import Spc from "./assets/css/spc.css"
-
+import Intro from './components/blocks/Intro'
 import Nav from './components/blocks/Nav'
 
+Vue.component('app-intro', Intro)
 Vue.component('app-nav', Nav)
 
 Vue.use(Cheeksy);

@@ -14,22 +14,22 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active">
-            <router-link to="#header">Home</router-link>
+          <li>
+            <router-link to="#header" active-class="active" exact>Home</router-link>
           </li>
           <li class="drop-down"><router-link to="">Church</router-link>
             <ul>
-              <li><router-link to="#">About Us</router-link></li>
-              <li><router-link to="#">Our Mission</router-link></li>
-              <li><router-link to="#">Our Vision</router-link></li>
-              <li><router-link to="#">Leadership</router-link></li>
+              <li><router-link to="/church/about" active-class="active">About Us</router-link></li>
+              <li><router-link to="/church/mission" active-class="active">Our Mission</router-link></li>
+              <li><router-link to="/church/vision" active-class="active">Our Vision</router-link></li>
+              <li><router-link to="/church/leadership" active-class="active">Leadership</router-link></li>
             </ul>
           </li>
-          <li><router-link to="#about">Departments</router-link></li>
-          <li><router-link to="/sermon">Sermon</router-link></li>
-          <li><router-link to="#portfolio">Gallery</router-link></li>
-          <li><router-link to="#team">Donate</router-link></li>
-          <li><router-link to="#contact">Contact Us</router-link></li>
+          <li><router-link to="/department" active-class="active">Departments</router-link></li>
+          <li><router-link to="/sermon" active-class="active">Sermon</router-link></li>
+          <li><router-link to="/gallery" active-class="active">Gallery</router-link></li>
+          <li><router-link to="/donate" active-class="active">Donate</router-link></li>
+          <li><router-link to="/contact" active-class="active">Contact Us</router-link></li>
 
         </ul>
       </nav>

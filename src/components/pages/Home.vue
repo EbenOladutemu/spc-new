@@ -1,6 +1,6 @@
 <template>
   <div>
-    <app-intro></app-intro>
+    <app-intro-home></app-intro-home>
     <app-nav></app-nav>
       <main id="main">
         <section id="about" class="about">
@@ -592,14 +592,14 @@
 </template>
 
 <script>
+import IntroHome from './../blocks/IntroHome'
 import Nav from './../blocks/Nav'
-import Intro from './../blocks/Intro'
 import Footer from './../blocks/Footer'
 
 export default {
   components:{
+    appIntroHome: IntroHome,
     appNav: Nav,
-    appIntro: Intro,
     appFooter: Footer
   }
 }
