@@ -19,14 +19,13 @@
           </li>
           <li class="drop-down"><router-link to="#">Church</router-link>
             <ul>
-              <li><router-link to="/church/about" active-class="active">About Us</router-link></li>
-              <li><router-link to="/church/mission" active-class="active">Our Mission</router-link></li>
-              <li><router-link to="/church/vision" active-class="active">Our Vision</router-link></li>
-              <li><router-link to="/church/leadership" active-class="active">Leadership</router-link></li>
+              <li><router-link to="/church/about-us" active-class="active">About Us</router-link></li>
+              <li><router-link to="/church/mission-vision" active-class="active">Our Mission & Vision</router-link></li>
+              <li><router-link to="/church/leaders#" active-class="active">Leadership</router-link></li>
             </ul>
           </li>
           <li><router-link to="/departments" active-class="active">Departments</router-link></li>
-          <li><router-link to="/sermon" active-class="active">Sermon</router-link></li>
+          <li><router-link to="/sermons" active-class="active">Sermon</router-link></li>
           <li><router-link to="/gallery" active-class="active">Gallery</router-link></li>
           <li><router-link to="#" active-class="active">Donate</router-link></li>
           <li><router-link to="/contact" active-class="active">Contact Us</router-link></li>
@@ -49,14 +48,8 @@ export default {
 </script>
 
 <style scoped>
-.nav-item a:hover,
-.nav-item a:active,
-.nav-item a.nuxt-link-exact-active{
-  color: #e04407!important;
-}
-
-.active-drop:active{
-  color: #e04407!important
+.active{
+  color: #4cbba9!important;
 }
 
 .img-size{
