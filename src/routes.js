@@ -21,9 +21,9 @@ export const routes = [
   { path: '/donate', component: Donate, name: 'donate' },
   { path: '/departments', component: Departments, name: 'departments' },
   { path: '/gallery', component: Gallery, name: 'gallery' },
-  { path: '/sermons', component: Sermons, name: 'sermons' },
+  { path: '/sermon', component: Sermons, name: 'sermons' },
   { path: '/church/about-us', component: AboutUs },
-  { path: '/church/leaders', component: Leaders },
+  { path: '/church/leadership', component: Leaders },
   { path: '/church/mission-vision', component: MissionVision },
   { path: '/church/worship-times', component: WorshipTimes },
   // { path: '/*', redirect: {name: 'home'} }
