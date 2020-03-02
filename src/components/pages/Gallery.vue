@@ -7,7 +7,7 @@
     <app-nav></app-nav>
     
     <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
+      <div class="container animated pulse">
 
         <div class="section-title text-center animated wow fadeInUp">
           <h2>Pictures Worth A Thousand Words</h2>
@@ -19,7 +19,7 @@
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">Leadership</li>
               <li data-filter=".filter-card">Random</li>
-              <li data-filter=".filter-web">Rest</li>
+              <!-- <li data-filter=".filter-web">Rest</li> -->
             </ul>
           </div>
         </div>

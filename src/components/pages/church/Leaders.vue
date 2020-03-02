@@ -8,11 +8,11 @@
     <section id="team" class="team">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title animated fadeInUp wow">
           <h2>Our Leaders</h2>
         </div>
 
-        <div class="row">
+        <div class="row animated fadeInDown wow">
 
           <div class="col-xl-4 col-lg-4 col-md-6">
             <div class="member">
