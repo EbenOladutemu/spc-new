@@ -4,13 +4,15 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Shuffle</h3>
+          <div class="col-lg-4 col-md-6 offset-lg-1 footer-info">
             <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <i class="bx bxl-twitter"></i> 2 Sawi Drive, Off Kingharman Road, Brookfields,<br>
+              Freetown, Sierra Leone<br><br>
+              <strong>Phone: </strong>
+              <a href="tel:+23276606383">+23276606383</a> &nbsp; &nbsp; 
+              <a href="tel:+23277612290">+23277612290</a><br>
+              <strong>Email: </strong>
+              <a href="mailto:sanctuarypraisecathedral@gmail.com">sanctuarypraisecathedral@gmail.com</a><br>
             </p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -21,7 +23,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <!-- <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
@@ -30,20 +32,9 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
-          </div>
+          </div> -->
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <div class="col-lg-6 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
@@ -78,11 +69,6 @@
 
 <style scoped>
 a{
-  color: #fff;
-}
-a:hover, a:active, a:focus {
-  color: #e5344c;
-  outline: none;
-  text-decoration: none;
+  color: #4cbba9;
 }
 </style>

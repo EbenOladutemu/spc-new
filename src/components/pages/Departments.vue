@@ -1,8 +1,8 @@
 <template>
   <div>
     <app-intro>
-      <img src="./../../assets/img/slide/slide-1.jpg" alt="" slot="bg-img">
-      <span slot="heading">Our Church Departments</span>
+      <img src="./../../assets/img/More/IMG_20191206_191548_8.jpg" alt="" slot="bg-img">
+      <span slot="heading">Church Departments</span>
     </app-intro>
     <app-nav></app-nav>
      <section class="info-box py-0">
@@ -13,7 +13,7 @@
           <div class="col-lg-10 offset-lg-1 col-12 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
 
             <div class="content text-center animated fadeInUp wow">
-              <h3><strong>Church Departments</strong></h3>
+              <h3><strong>Our Church Departments</strong></h3>
             </div>
 
             <div class="accordion-list">
@@ -107,7 +107,7 @@
 
                 <li>
                   <a data-toggle="collapse" href="#accordion-list-7" class="collapsed">
-                    <span>07</span>PROTOCOL AND HOSPITALITY DEPARTMENT:
+                    <span>07</span>PROTOCOL AND HOSPITALITY DEPARTMENT
                     <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i>
                   </a>
                   <div id="accordion-list-7" class="collapse" data-parent=".accordion-list">

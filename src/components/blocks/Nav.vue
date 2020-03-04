@@ -22,6 +22,7 @@
               <li><router-link to="/church/about-us" active-class="active">About Us</router-link></li>
               <li><router-link to="/church/mission-vision" active-class="active">Our Mission & Vision</router-link></li>
               <li><router-link to="/church/leadership" active-class="active">Leadership</router-link></li>
+              <li><router-link to="/church/worship-times" active-class="active">Worship Times</router-link></li>
             </ul>
           </li>
           <li><router-link to="/departments" active-class="active">Departments</router-link></li>

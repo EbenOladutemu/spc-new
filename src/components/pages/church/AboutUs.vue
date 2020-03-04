@@ -13,8 +13,8 @@
           <h3>About Us</h3>
         </header>
         <div class="row wow animated fadeInUp">
-          <div class="col-lg-6">
-            <img src="./../../../assets/img/about.jpg" class="img-fluid" alt="">
+          <div class="col-lg-6" style="margin-top: 12px">
+            <img src="./../../../assets/img/Random/vlcsnap-684.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content">
             <p>
