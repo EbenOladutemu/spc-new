@@ -2,16 +2,16 @@
   <div>
     <section id="hero">
       <div class="hero-container">
-        <div id="heroCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+        <div id="heroCarousel" class="carousel  carousel-fade" data-ride="carousel">
 
           <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
           <div class="carousel-inner" role="listbox">
 
             <!-- Slide 1 -->
-            <div class="carousel-item active">
+            <div class="carousel-item active" style="background-position: initial">
               <div class="carousel-background">
-                <img src="./../../assets/img/slide/slide-1.jpg" alt="">
+                <img src="./../../assets/img/Random/DSC_1439.jpg" alt="">
               </div>
               <div class="carousel-container">
                 <div class="carousel-content">
@@ -24,7 +24,7 @@
 
             <!-- Slide 2 -->
             <div class="carousel-item">
-              <div class="carousel-background"><img src="./../../assets/img/slide/slide-2.jpg" alt=""></div>
+              <div class="carousel-background"><img src="./../../assets/img/More/IMG_20191206_194818_9.jpg" alt=""></div>
               <div class="carousel-container">
                 <div class="carousel-content">
                   <transition mode="out-in" name="lightSpeedIn" enter-to-class="animated lightSpeedIn" leave-to-class="animated lightSpeedIn">
@@ -37,7 +37,7 @@
 
             <!-- Slide 3 -->
             <div class="carousel-item">
-              <div class="carousel-background"><img src="./../../assets/img/slide/slide-3.jpg" alt=""></div>
+              <div class="carousel-background"><img src="./../../assets/img/More/IMG_20191206_195652_3.jpg" alt=""></div>
               <div class="carousel-container">
                 <div class="carousel-content">
                   <transition enter-active-class="animated bounce" leave-active-class="animated bounce">

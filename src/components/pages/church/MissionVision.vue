@@ -1,7 +1,7 @@
 <template>
   <div>
     <app-intro>
-      <img src="./../../../assets/img/slide/slide-1.jpg" alt="" slot="bg-img">
+      <img src="./../../../assets/img/More/IMG_20191206_200649_0.jpg" alt="" slot="bg-img">
       <span slot="heading">Mission and Vision</span>
     </app-intro>
     <app-nav></app-nav>
