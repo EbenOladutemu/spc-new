@@ -1251,14 +1251,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #080808;
+  background: #2c3c38;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #080808;
+  background: #2c3c38;
   border-bottom: 1px solid #4d635f;
   padding: 60px 0 30px 0;
 }
