@@ -15,8 +15,13 @@ import Styles from "./assets/css/style.css"
 import Spc from "./assets/css/spc.css"
 import Intro from './components/blocks/Intro'
 import Nav from './components/blocks/Nav'
+import VueTypedJs from 'vue-typed-js'
+import VueTypedCss from './../node_modules/vue-typed-js/dist/vue-typed-js.css'
 
 
+
+Vue.use(VueTypedJs);
+Vue.use(VueTypedCss);
 Vue.use(Bootstrap);
 // Vue.use(jquery);
 Vue.use(Cheeksy);

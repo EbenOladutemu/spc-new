@@ -15,7 +15,12 @@
               </div>
               <div class="carousel-container">
                 <div class="carousel-content">
-                  <h2 class="animated fadeInDown"><span>Christ Revival Evangelistic Ministries</span></h2>
+                  <h2 class="animated fadeInDown">
+                    <vue-typed-js :strings="['Christ Revival Evangelistic Ministries']">
+                      <span class="typing">
+                      </span>
+                    </vue-typed-js>
+                  </h2>
                   <a class="venobox_custom venobox play-btn vbox-item" data-vbtype="video" href="https://youtu.be/5WpD_4lJy0Y" data-autoplay="true"></a>
                   <a href="#about" class="btn-get-started animated fadeInUp scrollto">Get Started</a>
                 </div>
