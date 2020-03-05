@@ -8,41 +8,13 @@
     <section id="contact" class="contact section-bg">
       <div class="container">
         <div class="section-title text-center animated fadeInUp wow">
-          <h2>We'd love to hear from you</h2>
+          <h3>We'd love to hear from you</h3>
         </div>
       </div>
 
       <div class="container-fluid">
 
         <div class="row">
-
-          <div class="col-lg-6 d-flex align-items-stretch infos">
-
-            <div class="row">
-
-              <div class="col-lg-6 info d-flex flex-column align-items-stretch">
-                <i class="bx bx-map"></i>
-                <h4>Address</h4>
-                <p>A108 Adam Street,<br>New York, NY 535022</p>
-              </div>
-              <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
-                <i class="bx bx-phone"></i>
-                <h4>Call Us</h4>
-                <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
-              </div>
-              <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
-                <i class="bx bx-envelope"></i>
-                <h4>Email Us</h4>
-                <p>contact@example.com<br>info@example.com</p>
-              </div>
-              <div class="col-lg-6 info d-flex flex-column align-items-stretch">
-                <i class="bx bx-time-five"></i>
-                <h4>Working Hours</h4>
-                <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
-              </div>
-            </div>
-
-          </div>
 
           <div class="col-lg-6 d-flex align-items-stretch contact-form-wrap">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
@@ -75,6 +47,37 @@
               </div>
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-stretch infos">
+
+            <div class="row">
+
+              <div class="col-lg-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-map"></i>
+                <h4>Address</h4>
+                <p>2 Sawi Drive, Off Kingharman Road, Brookfields,<br>Freetown, Sierra Leone<br><br>
+                </p>
+              </div>
+              <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
+                <i class="bx bx-phone"></i>
+                <h4>Call Us</h4>
+                <p><a href="tel:+23276606383">+23276606383</a> &nbsp; &nbsp; 
+                   <a href="tel:+23277612290">+23277612290</a>
+                </p>
+              </div>
+              <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
+                <i class="bx bx-envelope"></i>
+                <h4>Email Us</h4>
+                <p><a href="mailto:sanctuarypraisecathedral@gmail.com">sanctuarypraisecathedral@gmail.com</a></p>
+              </div>
+              <div class="col-lg-6 info d-flex flex-column align-items-stretch">
+                <i class="bx bx-time-five"></i>
+                <h4>Sunday Worship Services</h4>
+                <p>8AM and 10AM</p>
+              </div>
+            </div>
+
           </div>
 
         </div>

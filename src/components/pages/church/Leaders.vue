@@ -16,18 +16,18 @@
 
           <div class="col-xl-4 col-lg-4 col-md-6">
             <div class="member">
-              <img src="./../../../assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              <img src="./../../../assets/img/Victor_Ajisafe/IMG_6291.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
+                  <h4>Envagelist Victor Ajisafe</h4>
+                  <span>Lead Pastor</span>
                 </div>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
                   <a href=""><i class="icofont-instagram"></i></a>
                   <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -37,15 +37,15 @@
               <img src="./../../../assets/img/team/team-2.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
+                  <h4>Pastor Sia Ajisafe</h4>
+                  <!-- <span>Product Manager</span> -->
                 </div>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
                   <a href=""><i class="icofont-instagram"></i></a>
                   <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -55,15 +55,15 @@
               <img src="./../../../assets/img/team/team-3.jpg" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
+                  <h4>Pastor ....</h4>
+                  <!-- <span>CTO</span> -->
                 </div>
-                <div class="social">
+                <!-- <div class="social">
                   <a href=""><i class="icofont-twitter"></i></a>
                   <a href=""><i class="icofont-facebook"></i></a>
                   <a href=""><i class="icofont-instagram"></i></a>
                   <a href=""><i class="icofont-linkedin"></i></a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>

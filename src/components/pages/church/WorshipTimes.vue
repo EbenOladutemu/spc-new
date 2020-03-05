@@ -16,36 +16,58 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+              <img src="https://img.icons8.com/wired/64/000000/sunday.png" class="week">
+              <h4 class="title">Sunday</h4>
+              <p class="description">Divine Worship Services</p><hr>
+              <i class='bx bx-time-five bx-flip-horizontal'></i><span class="time"> 8:00AM - First Service</span>
+              <span class="time"> 10:00AM - Second Service</span>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
+              <img src="https://img.icons8.com/wired/64/000000/wednesday.png" class="week">
+              <h4 class="title">Wednesday</h4>
+              <p class="description">Bible Study and Communion Service</p><hr>
+              <i class='bx bx-time-five'></i><span class="time"> 5:30PM</span>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" style="padding: 26px!important">
+              <!-- <div class="icon"><i class="bx bx-tachometer"></i></div> -->
+              <img src="https://img.icons8.com/wired/64/000000/friday.png" class="week">
+              <h4 class="title">Friday</h4>
+              <p class="description">All Night Prayer Meeting</p><hr>
+              <i class='bx bx-time-five'></i><span class="time"> 12AM - Mid Night</span>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4 class="title"><a href="">Magni Dolores</a></h4>
-              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <!-- <div class="icon"><i class="bx bx-world"></i></div> -->
+              <img src="https://img.icons8.com/wired/64/000000/saturday.png" class="week">
+              <h4 class="title">Saturday</h4>
+              <p class="description">Bible School Classes (ISOM)</p><hr>
+              <i class='bx bx-time-five bx-flip-horizontal'></i><span class="time"> 8:00AM</span>
             </div>
           </div>
 
+        </div>
+
+        <div class="row mt-4">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4 class="title"><a href="">Nemo Enim</a></h4>
-              <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+              <img src="https://img.icons8.com/wired/64/000000/1--v1.png" class="week">
+              <h4 class="title">1st of every month</h4>
+              <p class="description">Power packed revival meeting - Let My Gate Be Opened</p><hr>
+              <i class='bx bx-time bx-flip-horizontal'></i><span class="time"> 9:00AM - Morning Session</span><br>
+              <span class="time"> 5:30PM - Evening Session</span>
             </div>
           </div>
-
         </div>
 
       </div>
@@ -67,3 +89,34 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .icon-box{
+    margin: auto;
+    text-align: center;
+  }
+  .icon-box:hover{
+    color: white;
+  }
+
+  .icon-box .week{
+    background-color: white!important;
+  }
+
+  .services .icon-box{
+    padding: 25px!important;
+  }
+
+  p{
+    font-size: 18px!important;
+  }
+
+  .title{
+    font-size: 20px!important;
+  }
+
+  .time{
+    position: relative;
+    bottom: 2px;
+  }
+</style>

@@ -6,7 +6,7 @@
 
           <div class="col-lg-4 col-md-6 offset-lg-1 footer-info">
             <p>
-              <i class="bx bxl-twitter"></i> 2 Sawi Drive, Off Kingharman Road, Brookfields,<br>
+              <i class="bx bx-map-pin"></i> 2 Sawi Drive, Off Kingharman Road, Brookfields,<br>
               Freetown, Sierra Leone<br><br>
               <strong>Phone: </strong>
               <a href="tel:+23276606383">+23276606383</a> &nbsp; &nbsp; 
@@ -34,11 +34,11 @@
             </ul>
           </div> -->
 
-          <div class="col-lg-6 col-md-6 footer-newsletter">
+          <div class="col-lg-5 col-md-5 offset-lg-1 footer-newsletter">
             <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <p>Keep up on our always evolving sermons and events. Enter your e-mail and subscribe to our newsletter.</p>
             <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
+              <input type="email" name="email" class="outline-none"><input type="submit" value="Subscribe">
             </form>
 
           </div>
@@ -49,7 +49,8 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Sanctuary Praise Church</span></strong>. All Rights Reserved
+        &copy; Copyright <span>{{ year | moment("YYYY") }}</span>
+        <strong><span> Sanctuary Praise Church</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
@@ -63,12 +64,27 @@
 </template>
 
 <script>
-// date = document.getElementById('year')
-// date = new Date().getFullYear();
+export default{
+  data(){
+    return {
+      year: Date.now()
+    }
+  }
+  
+}
 </script>
 
 <style scoped>
 a{
   color: #4cbba9;
+  font-size: 15px;
+}
+
+p{
+  font-size: 16px;
+}
+
+.outline-none{
+  outline: none;
 }
 </style>

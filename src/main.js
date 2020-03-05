@@ -27,6 +27,7 @@ Vue.use(Venobox);
 // Vue.use(Venoboxjs);
 Vue.use(Styles);
 Vue.use(Spc);
+Vue.use(require('vue-moment'));
 
 Vue.component('app-intro', Intro)
 Vue.component('app-nav', Nav)
@@ -42,3 +43,4 @@ new Vue({
   router,
   render: h => h(App)
 });
+
