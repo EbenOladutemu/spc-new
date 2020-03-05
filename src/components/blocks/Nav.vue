@@ -27,7 +27,7 @@
           </li>
           <li><router-link to="/departments" active-class="active">Departments</router-link></li>
           <li><router-link to="/sermon" active-class="active">Sermon</router-link></li>
-          <li><router-link to="https://spc-another.netlify.com/gallery" active-class="active">Gallery</router-link></li>
+          <li><a href="https://spc-another.netlify.com/gallery" active-class="active">Gallery</a></li>
           <li><router-link to="#" active-class="active">Donate</router-link></li>
           <li><router-link to="/contact" active-class="active">Contact Us</router-link></li>
 
