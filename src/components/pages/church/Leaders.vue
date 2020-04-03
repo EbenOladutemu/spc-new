@@ -34,7 +34,7 @@
 
           <div class="col-xl-4 col-lg-4 col-md-6" data-wow-delay="0.1s">
             <div class="member">
-              <img src="./../../../assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              <img src="./../../../assets/img/Victor-Ajisafe/Mummy.jpg" class="img-fluid" alt="Sia Ajisafe">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Pastor Sia Ajisafe</h4>
