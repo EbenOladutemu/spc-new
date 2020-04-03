@@ -2,7 +2,7 @@
 import { routes } from "./routes";
 
 import Vue from 'vue'
-import jquery from 'jquery'
+// import jquery from 'jquery'
 import App from './App.vue'
 import Cheeksy from 'vue-router'
 import Bootstrap from "./assets/vendor/bootstrap/css/bootstrap.min.css"
@@ -17,13 +17,14 @@ import Intro from './components/blocks/Intro'
 import Nav from './components/blocks/Nav'
 import VueTypedJs from 'vue-typed-js'
 import VueTypedCss from './../node_modules/vue-typed-js/dist/vue-typed-js.css'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
 
-
+Vue.use(BootstrapVue);
 Vue.use(VueTypedJs);
 Vue.use(VueTypedCss);
 Vue.use(Bootstrap);
-// Vue.use(jquery);
+// Vue.use(require('jquery'));
 Vue.use(Cheeksy);
 Vue.use(IcoFonts);
 Vue.use(BoxIcons);

@@ -16,8 +16,25 @@
               </div>
               <div class="col-lg-6 pt-4 pt-lg-0 content">
                 <!-- <h3>Voluptatem dignissimos <strong>provident quasi corporis voluptates</strong></h3> -->
-                <p class="font-italic">
-                  A nice Welcome message here...
+                <p>
+                  We are excited that you’re here. On behalf of our entire church family we want you to know
+                  that we are dedicated to preaching and teaching the undiluted word of God to everyone. God is
+                  doing some very exciting things in the hearts and lives of the people who are part of this
+                  ministry and call it their home.
+                </p>
+                <p>
+                  We focus primarily on the undiluted word of God, praying in the Spirit, healing the sick, setting
+                  the captives free and winning souls for God’s Kingdom.
+                  We pray you will step into this journey with us and that you will find here meaningful
+                  opportunities to connect with others who share this vision.
+                </p>
+                <p>
+                  I hope you will be specially blessed today and that you will choose to join us each week as we
+                  grow together!
+                </p>
+                <p style="font-size: 20px">
+                  God bless you.<br>
+                  <em>Evangelist Victor Ajisafe</em>
                 </p>
 
               </div>
